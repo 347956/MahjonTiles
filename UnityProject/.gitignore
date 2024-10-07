@@ -99,6 +99,7 @@ crashlytics-build.properties
 *.obj
 *.3ds
 *.dxf
+*.prefab
 
 # Ignore models' associated texture files
 *.tga
