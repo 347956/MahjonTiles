@@ -2,7 +2,7 @@
 This mod adds (Riichi) Mahjong themed/related custom scrap.
 
 # Scrap
-For now the mod only adds Mahjong Tiles as scrap, but I would like to expand the list in the future with other mahjong related stuff.
+For now the mod only adds Mahjong Tiles as scrap, but I would like to expand the list in the future with other mahjong related stuff such as Mahjong Soul themed scrap.
 
 ## Mahjong Tiles
 Red fives are rarer but worth more!
