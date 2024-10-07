@@ -36,7 +36,25 @@ Adds tiles:
 Mahjong Tiles can be enabled/disabled in the config.
 The spawn rate can also be adjusted in the config.
 
-## Credits
+
+## Feedback
+Feel free to leave feedback in the discord channel
+
+## previews
+
+### Tiles
+![All Tiles](https://raw.githubusercontent.com/347956/MahjongScrap/refs/heads/main/Previews/Tiles_Preview.png)
+
+
+### Red Fives
+![Red Fives](https://raw.githubusercontent.com/347956/MahjongScrap/refs/heads/main/Previews/Red_Fives.png)
+
+### Spawned as Scrap
+![Scrap spawned in the facility - 1](https://raw.githubusercontent.com/347956/MahjongScrap/refs/heads/main/Previews/Tiles_Spawnable.png)
+
+![Scrap spawned in the facility - 2](https://raw.githubusercontent.com/347956/MahjongScrap/refs/heads/main/Previews/Tiles_Spawnable%202.png)
+
+## Credits:
 - [Mahjong Tile Sprites Wiki Author](https://commons.wikimedia.org/wiki/User:Cangjie6#%E9%BA%BB%E9%9B%80%E7%89%8C)
 - [Mahjong Tile Sprites Wiki Page](https://en.wikipedia.org/wiki/Mahjong_tiles#)
 - [Tile Models](https://skfb.ly/os987)
