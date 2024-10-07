@@ -35,12 +35,12 @@ namespace MahjongScrap {
             bool enabled = BoundConfig.EnableMahjongTiles.Value;
             if (enabled)
             {
-                Logger.LogError($"EnableMahjongTiles = [{enabled}] > enabling Mahjong Tiles");
+                Logger.LogInfo($"EnableMahjongTiles = [{enabled}] > enabling Mahjong Tiles");
                 RegisterTiles();
             }
             else
             {
-                Logger.LogError($"EnableMahjongTiles = [{enabled}] > skipped loading Mahjong Tiles");
+                Logger.LogInfo($"EnableMahjongTiles = [{enabled}] > skipped loading Mahjong Tiles");
             }
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
         }
