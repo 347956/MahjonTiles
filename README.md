@@ -16,7 +16,9 @@ Adds tiles:
 
 ### Honour
 Adds Tiles:
-
+- White Dragon
+- Green Dragon
+- Red Dragon
 ### Souzu / Bamboo
 Adds tiles:
 - 1 - 9
@@ -33,8 +35,8 @@ Adds tiles:
 - Red 5
 
 ## Config
-Mahjong Tiles can be enabled/disabled in the config.
-The spawn rate can also be adjusted in the config.
+Mahjong Tiles can be enabled/disabled in the config.  
+The spawn rate of the tiles can also be adjusted in the config.
 
 
 ## Feedback
@@ -58,3 +60,4 @@ Feel free to leave feedback in the discord channel
 - [Mahjong Tile Sprites Wiki Author](https://commons.wikimedia.org/wiki/User:Cangjie6#%E9%BA%BB%E9%9B%80%E7%89%8C)
 - [Mahjong Tile Sprites Wiki Page](https://en.wikipedia.org/wiki/Mahjong_tiles#)
 - [Tile Models](https://skfb.ly/os987)
+- The tile sounds are from [Mahjong Soul](https://mahjongsoul.yo-star.com/)
