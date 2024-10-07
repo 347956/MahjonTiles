@@ -80,3 +80,30 @@ crashlytics-build.properties
 # We allow these dll files because we have the right to redistribute them
 !/[Aa]ssets/Plugins/MahjongScrap.dll*
 !/[Aa]ssets/Plugins/LethalLib.dll*
+
+
+
+# Ignore asset meta data
+*.meta
+
+# Ignore generated materials
+*.mat
+
+# Ignore crash reports
+*.stacktrace
+
+# Ignore files for models
+*.fbx
+*.blend
+*.dae
+*.obj
+*.3ds
+*.dxf
+
+# Ignore models' associated texture files
+*.tga
+*.png
+*.jpg
+*.jpeg
+*.psd
+*.tiff
