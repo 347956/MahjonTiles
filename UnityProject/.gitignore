@@ -108,3 +108,6 @@ crashlytics-build.properties
 *.jpeg
 *.psd
 *.tiff
+
+# ignore audio files
+*.mp3
