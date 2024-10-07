@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1038632327
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 49c3616fd5d9dcbbdebccc63a405e7e6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d202959f1883486cfab10c4931e6dea8
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 49c3616fd5d9dcbbdebccc63a405e7e6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ModAssets/MahjongScrap/Tiles/EastTile.asset
+Dependencies: []

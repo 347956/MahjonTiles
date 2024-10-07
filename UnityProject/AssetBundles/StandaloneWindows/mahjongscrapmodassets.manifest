@@ -1,0 +1,96 @@
+ManifestFileVersion: 0
+CRC: 2513318356
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5b00afe6d821fbab323bbba054d57afa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c2d9e5458e7dbe4417db43b38eb13828
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5b00afe6d821fbab323bbba054d57afa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3c36d0a92cbb1f26a39169ef0eae393a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d0cf24d2ccc3b7eab72048d0f57c437, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Battery
+Assets:
+- Assets/ModAssets/MahjongScrap/Tiles/ManzuThreeTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/PinzuOneTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/EastTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/WhiteDragonTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/ManzuTwoTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/WestTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/SouzuSixTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/PinzuFiveTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/PinzuEightTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/PinzuFourTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/SouzuFourTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/SouzuThreeTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/ManzuNineTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/ManzuSevenTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/PinzuThreeTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/PinzuTwoTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/SouzuFiveTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/RedDragonTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/ManzuEightTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/ManzuSixTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/SouzuRedFiveTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/PinzuSevenTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/SouzuNineTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/SouzuTwoTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/ManzuOneTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/GreenDragonTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/PinzuRedFiveTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/ManzuFiveTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/PinzuSixTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/SouzuEightTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/ManzuRedFiveTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/SouthTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/PinzuNineTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/ManzuFourTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/NorthTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/SouzuOneTile.asset
+- Assets/ModAssets/MahjongScrap/Tiles/SouzuSevenTile.asset
+Dependencies: []
