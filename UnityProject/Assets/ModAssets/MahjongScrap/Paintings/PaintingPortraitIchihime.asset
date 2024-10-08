@@ -32,7 +32,7 @@ MonoBehaviour:
   minValue: 150
   spawnPrefab: {fileID: 2129835484668756541, guid: faa2e9df3d5ad194180ca1ac11e09ab6,
     type: 3}
-  requiresBattery: 0
+  requiresBattery: 1
   batteryUsage: 0
   automaticallySetUsingPower: 0
   itemIcon: {fileID: 21300000, guid: f12a4a9c3de242a4da062e89f83f8b2d, type: 3}
@@ -64,5 +64,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: ad3d09db5f5ee7b459716b8073fc6b60, type: 2}
   - {fileID: 2100000, guid: 51abf29035beeb64ead085789a0cf895, type: 2}
   - {fileID: 2100000, guid: 350585b12e2c5974fa534e3b5373d326, type: 2}
+  - {fileID: 2100000, guid: c0b34eaf7bc07ac4ab2ff2f6951537ce, type: 2}
+  - {fileID: 2100000, guid: 0e479798a50ff4542a8b52a345a793b6, type: 2}
   usableInSpecialAnimations: 0
   canBeInspected: 0

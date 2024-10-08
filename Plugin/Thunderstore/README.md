@@ -32,10 +32,20 @@ Adds tiles:
 - 1 - 9
 - Red 5
 
+## Mahjong Soul Paintings
+
+### Ichihime
+Portrait featuring:
+- Default
+- Bond
+- Beach Party
+- New Year
+- Invincible
+- Spring Song
+
 ## Config
 Mahjong Tiles can be enabled/disabled in the config.
 The spawn rate can also be adjusted in the config.
-
 
 ## Feedback
 Feel free to leave feedback in the discord channel

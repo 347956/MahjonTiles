@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2513318356
+CRC: 1757923333
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5b00afe6d821fbab323bbba054d57afa
+    Hash: 246e1802b089eb8b25b5c4ab038467d8
   TypeTreeHash:
     serializedVersion: 2
     Hash: c2d9e5458e7dbe4417db43b38eb13828
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 5b00afe6d821fbab323bbba054d57afa
+    Hash: 246e1802b089eb8b25b5c4ab038467d8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -82,6 +82,7 @@ Assets:
 - Assets/ModAssets/MahjongScrap/Tiles/SouzuTwoTile.asset
 - Assets/ModAssets/MahjongScrap/Tiles/ManzuOneTile.asset
 - Assets/ModAssets/MahjongScrap/Tiles/GreenDragonTile.asset
+- Assets/ModAssets/MahjongScrap/Paintings/PaintingPortraitIchihime.asset
 - Assets/ModAssets/MahjongScrap/Tiles/PinzuRedFiveTile.asset
 - Assets/ModAssets/MahjongScrap/Tiles/ManzuFiveTile.asset
 - Assets/ModAssets/MahjongScrap/Tiles/PinzuSixTile.asset

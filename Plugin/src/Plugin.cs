@@ -32,21 +32,31 @@ namespace MahjongScrap {
             }
 
             //Checks if Tiles are enabled > Registers and loads the tiles if enabled
-            bool enabled = BoundConfig.EnableMahjongTiles.Value;
-            if (enabled)
+            bool tilesEnabled = BoundConfig.EnableMahjongTiles.Value;
+            if (tilesEnabled)
             {
-                Logger.LogInfo($"EnableMahjongTiles = [{enabled}] > enabling Mahjong Tiles");
+                Logger.LogInfo($"EnableMahjongTiles = [{tilesEnabled}] > enabling Mahjong Tiles");
                 RegisterTiles();
             }
             else
             {
-                Logger.LogInfo($"EnableMahjongTiles = [{enabled}] > skipped loading Mahjong Tiles");
+                Logger.LogInfo($"EnableMahjongTiles = [{tilesEnabled}] > skipped loading Mahjong Tiles");
+            }
+
+
+            //Checks if Paintings are enabled > Registers and loads the paintings if enabled
+            bool paintingsEnabled = BoundConfig.EnableMahjongSoulPaintings.Value;
+            if (paintingsEnabled)
+            {
+                Logger.LogInfo($"EnableMahjongSoulPaintings = [{tilesEnabled}] > enabling Mahjong Soul Paintings");
+                RegisterPaintings();
+            }
+            else
+            {
+                Logger.LogInfo($"EnableMahjongSoulPaintings = [{tilesEnabled}] > skipped loading Mahjong Soul Paintings");
             }
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
         }
-
-
-
 
         //To keep the code clean
 
@@ -66,8 +76,6 @@ namespace MahjongScrap {
                 int iTileRarity = BoundConfig.MahjongTileSpawnWeight.Value;
                 foreach (Item tile in tiles)
                 {
-                    Vector3 rotation = new Vector3(0, 0, 90);
-                    tile.rotationOffset = rotation;
                     NetworkPrefabs.RegisterNetworkPrefab(tile.spawnPrefab);
                     Items.RegisterScrap(tile, iTileRarity, Levels.LevelTypes.All);
                 }
@@ -78,8 +86,6 @@ namespace MahjongScrap {
                 int iRedTileRarity = BoundConfig.MahjongTileSpawnWeight.Value;
                 foreach (Item tile in redTiles)
                 {
-                    Vector3 rotation = new Vector3(0, 0, 90);
-                    tile.rotationOffset = rotation;
                     NetworkPrefabs.RegisterNetworkPrefab(tile.spawnPrefab);
                     Items.RegisterScrap(tile, iRedTileRarity, Levels.LevelTypes.All);
                 }
@@ -152,6 +158,43 @@ namespace MahjongScrap {
             }
 
             return redTiles;
+        }
+
+        private void RegisterPaintings()
+        {
+
+            if (ModAssets == null)
+            {
+                Logger.LogWarning("The asset bundel is null or not set!");
+            }
+
+            List<Item> paintings = LoadPaintings();
+
+            if (paintings != null && paintings.Count > 0)
+            {
+                int iTileRarity = BoundConfig.MahjongSoulPaintingsSpawnWeight.Value;
+                foreach (Item painting in paintings)
+                {
+                    NetworkPrefabs.RegisterNetworkPrefab(painting.spawnPrefab);
+                    Items.RegisterScrap(painting, iTileRarity, Levels.LevelTypes.All);
+                }
+                Logger.LogInfo("Done loading mahjong soul paintings");
+            }
+        }
+
+
+        private List<Item> LoadPaintings()
+        {
+            List<Item> paintings = new List<Item>();
+            if (ModAssets != null)
+            {
+                paintings.Add(ModAssets.LoadAsset<Item>("PaintingPortraitIchihime"));
+            }
+            else
+            {
+                Logger.LogWarning("Something went wrong with loading the paintings");
+            }
+            return paintings;
         }
 
         private static void InitializeNetworkBehaviours() {
