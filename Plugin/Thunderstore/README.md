@@ -64,6 +64,10 @@ Feel free to leave feedback in the discord channel
 
 ![Scrap spawned in the facility - 2](https://raw.githubusercontent.com/347956/MahjongScrap/refs/heads/main/Previews/Tiles_Spawnable%202.png)
 
+
+### Paintings
+![Ichihime Portrait](https://raw.githubusercontent.com/347956/MahjongScrap/refs/heads/main/Previews/Painting_Preview.png)
+
 ## Credits:
 - [Mahjong Tile Sprites Wiki Author](https://commons.wikimedia.org/wiki/User:Cangjie6#%E9%BA%BB%E9%9B%80%E7%89%8C)
 - [Mahjong Tile Sprites Wiki Page](https://en.wikipedia.org/wiki/Mahjong_tiles#)
