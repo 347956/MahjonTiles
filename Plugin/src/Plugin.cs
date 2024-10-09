@@ -65,7 +65,7 @@ namespace MahjongScrap {
         {
             if (ModAssets == null)
             {
-                Logger.LogWarning("The asset bundel is null or not set!");
+                Logger.LogWarning("The asset bundle is null or not set!");
             }
 
             List<Item> tiles = LoadTiles();
@@ -165,7 +165,7 @@ namespace MahjongScrap {
 
             if (ModAssets == null)
             {
-                Logger.LogWarning("The asset bundel is null or not set!");
+                Logger.LogWarning("The asset bundle is null or not set!");
             }
 
             List<Item> paintings = LoadPaintings();
