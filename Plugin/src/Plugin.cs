@@ -172,11 +172,11 @@ namespace MahjongScrap {
 
             if (paintings != null && paintings.Count > 0)
             {
-                int iTileRarity = BoundConfig.MahjongSoulPaintingsSpawnWeight.Value;
+                int iPaintingRarity = BoundConfig.MahjongSoulPaintingsSpawnWeight.Value;
                 foreach (Item painting in paintings)
                 {
                     NetworkPrefabs.RegisterNetworkPrefab(painting.spawnPrefab);
-                    Items.RegisterScrap(painting, iTileRarity, Levels.LevelTypes.All);
+                    Items.RegisterScrap(painting, iPaintingRarity, Levels.LevelTypes.All);
                 }
                 Logger.LogInfo("Done loading mahjong soul paintings");
             }

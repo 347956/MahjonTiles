@@ -1,6 +1,6 @@
 ## 1.0.2
 Added new painings.
-- Added Joseph painting:
+- Added group painting:
 	- New Year's Wishes
 - Added Joseph paintings:
 	- Default
