@@ -16,6 +16,9 @@ Adds tiles:
 
 ### Honour
 Adds Tiles:
+- White Dragon
+- Green Dragon
+- Red Dragon
 
 ### Souzu / Bamboo
 Adds tiles:
@@ -48,7 +51,7 @@ Mahjong Tiles can be enabled/disabled in the config.
 The spawn rate can also be adjusted in the config.
 
 ## Feedback
-Feel free to leave feedback in the discord channel
+Feel free to leave feedback in the [discord channel](https://discord.com/channels/1168655651455639582/1292962953309585569)
 
 ## previews
 
