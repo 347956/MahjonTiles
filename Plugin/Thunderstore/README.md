@@ -46,6 +46,14 @@ Portrait featuring:
 - Invincible
 - Spring Song
 
+### Joseph
+- Default
+- Bond
+- New year
+
+### Group
+- New Year's Wishes
+
 ## Config
 Mahjong Tiles can be enabled/disabled in the config.
 The spawn rate can also be adjusted in the config.

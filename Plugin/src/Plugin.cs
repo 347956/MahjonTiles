@@ -189,6 +189,8 @@ namespace MahjongScrap {
             if (ModAssets != null)
             {
                 paintings.Add(ModAssets.LoadAsset<Item>("PaintingPortraitIchihime"));
+                paintings.Add(ModAssets.LoadAsset<Item>("PaintingPortraitJoseph"));
+                paintings.Add(ModAssets.LoadAsset<Item>("PaintingPortraitGroup"));
             }
             else
             {

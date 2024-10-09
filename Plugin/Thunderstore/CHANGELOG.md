@@ -1,3 +1,13 @@
+## 1.0.2
+Added new painings.
+- Added Joseph painting:
+	- New Year's Wishes
+- Added Joseph paintings:
+	- Default
+	- Bond
+	- New year
+
+
 ## 1.0.1
 - Fixed tile Offset position
 	- The tiles should now be displayed in your hand correctly when picked up 
