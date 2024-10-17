@@ -48,12 +48,12 @@ namespace MahjongScrap {
             bool paintingsEnabled = BoundConfig.EnableMahjongSoulPaintings.Value;
             if (paintingsEnabled)
             {
-                Logger.LogInfo($"EnableMahjongSoulPaintings = [{tilesEnabled}] > enabling Mahjong Soul Paintings");
+                Logger.LogInfo($"EnableMahjongSoulPaintings = [{paintingsEnabled}] > enabling Mahjong Soul Paintings");
                 RegisterPaintings();
             }
             else
             {
-                Logger.LogInfo($"EnableMahjongSoulPaintings = [{tilesEnabled}] > skipped loading Mahjong Soul Paintings");
+                Logger.LogInfo($"EnableMahjongSoulPaintings = [{paintingsEnabled}] > skipped loading Mahjong Soul Paintings");
             }
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
         }
@@ -173,10 +173,21 @@ namespace MahjongScrap {
             if (paintings != null && paintings.Count > 0)
             {
                 int iPaintingRarity = BoundConfig.MahjongSoulPaintingsSpawnWeight.Value;
+                bool enableHalloween = BoundConfig.EnableMahjongSoulHalloweenPaintings.Value;
                 foreach (Item painting in paintings)
                 {
                     NetworkPrefabs.RegisterNetworkPrefab(painting.spawnPrefab);
-                    Items.RegisterScrap(painting, iPaintingRarity, Levels.LevelTypes.All);
+
+                    //Halloween paintings will be loaded but set with a 0 spawnweight. This way they'll still be in game as scrap for save files but not spawnable on moons.
+                    if (painting.name.Equals("PaintingHalloween") && !enableHalloween)
+                    {
+                        Logger.LogInfo("Halloween paintings are disabled");
+                        Items.RegisterScrap(painting, 0, Levels.LevelTypes.All);
+                    }
+                    else
+                    {
+                        Items.RegisterScrap(painting, iPaintingRarity, Levels.LevelTypes.All);
+                    }
                 }
                 Logger.LogInfo("Done loading mahjong soul paintings");
             }
@@ -191,6 +202,8 @@ namespace MahjongScrap {
                 paintings.Add(ModAssets.LoadAsset<Item>("PaintingPortraitIchihime"));
                 paintings.Add(ModAssets.LoadAsset<Item>("PaintingPortraitJoseph"));
                 paintings.Add(ModAssets.LoadAsset<Item>("PaintingPortraitGroup"));
+                paintings.Add(ModAssets.LoadAsset<Item>("PaintingYakuman"));
+                paintings.Add(ModAssets.LoadAsset<Item>("PaintingHalloween"));
             }
             else
             {

@@ -10,6 +10,7 @@ namespace MahjongScrap.Configuration {
         public ConfigEntry<int> MahjongRedTileSpawnWeight;
         public ConfigEntry<bool> EnableMahjongTiles;
         public ConfigEntry<bool> EnableMahjongSoulPaintings;
+        public ConfigEntry<bool> EnableMahjongSoulHalloweenPaintings;
         public ConfigEntry<int> MahjongSoulPaintingsSpawnWeight;
 
         public PluginConfig(ConfigFile cfg)
@@ -31,6 +32,9 @@ namespace MahjongScrap.Configuration {
             MahjongSoulPaintingsSpawnWeight = cfg.Bind("Paintings", "SpawnWeight Mahjong Soul paintings", 5,
                 "The spawn chance weight for Mahjong Soul paintings, relative to other existing scrap.\n" +
                 "Goes up from 0, lower is more rare, 100 and up is very common.");
+
+            EnableMahjongSoulHalloweenPaintings = cfg.Bind("Paintings", "Enable Mahjong Soul Halloween paintings", true,
+                "Enables or Disables Mahjong Soul inspired Halloween paintings");
 
             ClearUnusedEntries(cfg);
         }
